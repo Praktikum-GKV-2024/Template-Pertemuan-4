@@ -32,7 +32,7 @@ int main(void) {
 	// menggunakan OpenGL 3.0 (masih dapat menggunakan legacy)
 
     /* Create a windowed mode window and its OpenGL context */
-    std::string window_title = "Pertemuan 3";
+    std::string window_title = "Pertemuan 4";
     window = glfwCreateWindow(640, 480, window_title.c_str(), NULL, NULL);
     if (!window) {
         glfwTerminate();
